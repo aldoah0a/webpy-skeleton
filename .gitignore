@@ -4,4 +4,5 @@
 #idiotic mac files
 .DS_Store
 
-
+#ignore web.py symlink
+web
