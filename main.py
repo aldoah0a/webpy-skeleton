@@ -2,12 +2,12 @@
 # -*- coding: utf-8 -*-
 
 import web
+import config
+from config import render
 
 urls = (
   r'/', 'index'
 )
-
-render = web.template.render('templates/', base='layout')
 
 class index:
   def GET(self):
